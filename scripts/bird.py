@@ -34,7 +34,7 @@ class Bird:
             else:
                 if self.game.fy is not None:
                     self.pos[1] = self.game.fy
-                print(self.pos[1])
+
             self.bird_rect.x = self.pos[0]
             self.bird_rect.y = self.pos[1]
 
